@@ -1,0 +1,192 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 99%;
+    height: 97%;
+    background-image: url('coffee4.jpg');
+    background-size: cover;
+   
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    padding: 0px 40px;
+}
+
+.logo{
+    font-weight: bold;
+    color: brown;
+    font-size: 45px;
+}
+
+.nav{
+    position: relative;
+    left: -180px;
+}
+
+a{
+    padding: 5px 15px; /*space between navbar*/
+    color: brown;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: black;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+.search{
+    font-size: 25px;
+    height: 30px;
+    display: flex;
+    padding: 5px 3px;
+    background: white;
+    border-radius: 30px;
+    align-items: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.search:hover input{
+    width: 200px;
+}
+
+.search input{
+    width: 0;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    transition: 0.8s;
+    background: transparent;
+}
+
+.search a.fas{
+    color: brown;
+    font-size: 18px;
+}
+
+.search i{
+    padding: 5px 20px;
+}
+
+
+
+.heading{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top:65px;
+    align-items: center;
+}
+
+.right{
+    width: 410px;
+    height: 410px;
+    background-image: url('food.jpg');
+    background-size: cover;
+    border-radius: 400px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.right::before{
+    width: 430px;
+    height: 430px;
+    border: 2px solid white;
+    content: '';
+    position: absolute;
+    border-radius: 430px;
+    padding: 2px;
+}
+
+.left p:nth-child(1){
+    color: white;
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-style: italic;
+
+}
+
+.left h1{
+    font-size: 90px;
+    color: white;
+}
+
+.left p:nth-child(3){
+    color: rgb(230, 26, 26);
+    font-style: italic;
+    font-size: 30px;
+}
+
+.left button{
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 20px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    margin: 20px 0px;
+
+}
+
+.left button:hover{
+    color: rgb(238, 166, 8);
+}
+
+.social{
+    position: absolute;
+    right: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    width: 40px;
+    height: 200px;
+    background-color: white;
+    font-size: 25px;
+
+}
+
+.social i:hover{
+    color: rgb(238, 166, 8);
+}
+
+#food1,#food2, #food3{
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin: 0px 20px;
+
+
+}
+
+#food1{
+    background-image: url('plate1.2.jpg');
+}
+
+#food2{
+    background-image: url('food.jpg');
+}
+
+#food3{
+    background-image: url('food1.png');
+}
+
+.menu{
+    display: flex;
+    margin: 0px 100px;
+
+}
+
+
+
